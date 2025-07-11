@@ -1,0 +1,7 @@
+length = input("Type the length pls!\n")
+width = input("Type the width pls!\n")
+area = float(length) * float(width)
+meter1_fee = input("How much for 1 meter?:\n") 
+print(f"Your total area is: {area} meter")
+wage = float(meter1_fee) * float(area)
+print(f"give the guy: $ {wage}\n")

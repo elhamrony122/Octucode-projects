@@ -1,0 +1,3 @@
+print("welcome to our bank!")
+PIN_Number = input("Pls Enter Your PIN Number \n")
+print(len(PIN_Number))

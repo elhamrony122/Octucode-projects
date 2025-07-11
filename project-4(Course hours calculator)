@@ -1,0 +1,4 @@
+total_minutes = input("Please enter the total minutes\n")
+hours = int(total_minutes) // 60
+minutes = int(total_minutes) % 60
+print(f"This corse has: {hours} hours and {minutes} minutes.")
